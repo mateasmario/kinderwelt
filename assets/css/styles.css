@@ -1,0 +1,102 @@
+/* Fonts */
+@font-face {
+    font-family: CocoSharp;
+    src: url("../fonts/CocoSharpL-Regular.otf");
+  }
+
+/* General */
+body {
+    margin: 0;
+    color: #1F1F1F;
+    font-family: CocoSharp;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-image: linear-gradient(to bottom, #d4eef1, #ffffff);
+    letter-spacing: 3px;
+}
+
+.navbar-left {
+    flex: .33;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.navbar-social-button {
+}
+
+.navbar-center {
+    flex: .33;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    justify-content: center;
+}
+
+.navbar-item {
+    border-bottom: 2px solid transparent;
+}
+
+.navbar-item:hover {
+    border-bottom: 2px solid #1F1F1F;
+    transition: .25s;
+}
+
+.navbar-right {
+    flex: .33;
+}
+
+/* Sections */
+.header {
+    background-image: linear-gradient(to top, #50e4ff, #31b2c5);
+    min-height: 350px;
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.header-left {
+    flex: .5;
+}
+
+.header-right {
+    flex: .5;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    font-size: 1.25rem;
+    letter-spacing: 1.15px;
+}
+
+.description p {
+    text-align: center;
+}
+
+.highlight {
+    color: #33b5c8;
+}
+
+.activities {
+    min-height: 250px;
+    background-image: linear-gradient(to bottom, #d3edf1, #ffffff);
+}
