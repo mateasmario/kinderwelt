@@ -62,21 +62,39 @@ a {
 /* Sections */
 .header {
     background-image: linear-gradient(to top, #50e4ff, #31b2c5);
-    min-height: 350px;
     display: flex;
     flex-direction: row;
     color: #ffffff;
-    padding-top: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     padding-left: 2rem;
     padding-right: 2rem;
+    font-size: 1.75rem;
 }
 
-.header-left {
-    flex: .5;
+.header-item {
+    flex: .33;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
 }
 
-.header-right {
-    flex: .5;
+.header-subitem {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+}
+
+.header-subitem img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.header-subitem-row {
+    flex: 1;
 }
 
 .description {
@@ -99,4 +117,22 @@ a {
 .activities {
     min-height: 250px;
     background-image: linear-gradient(to bottom, #d3edf1, #ffffff);
+}
+
+/* Components */
+.button {
+    border: 2px solid white;
+    border-radius: 20px;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    color: white;
+    background-color: transparent;
+}
+
+.button:hover {
+    color: #1F1F1F;
+    background-color: white;
+    transition: .25s;
 }
