@@ -115,9 +115,9 @@ a {
 /* Sections */
 .header {
     background-image: linear-gradient(to top, rgba(28, 183, 211, 0.85), rgba(49, 178, 197, 0.8)), url("../img/frosch-verby-kids.png");
-    background-size: auto 100%;
+    background-size: 100% auto;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center bottom;
     display: flex;
     flex-direction: row;
     color: #ffffff;
