@@ -4,8 +4,47 @@
         <link rel="stylesheet" href="assets/css/styles.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Kinderwelt - Home</title>
+        <script>
+            let displayed = false;
+            window.onload = function() {
+                document.getElementById("navbar-small-items").style.display = "none";
+            }
+
+            function toggleNavbarSmallItems() {
+                console.log("test");
+
+                if (displayed) {
+                    document.getElementById("navbar-small-items").style.display = "none";                    
+                }
+                else {
+                    document.getElementById("navbar-small-items").style.display = "flex";                    
+                }
+
+                displayed = !displayed;
+            }
+        </script>
     </head>
     <body>
+        <nav class="navbar-small">
+            <img src="assets/img/hamburger.png" onclick="toggleNavbarSmallItems()"/>
+        </nav>
+        <nav class="navbar-small-items" id="navbar-small-items">
+            <div class="navbar-small-item">
+                <a href="#">HOME</a>
+            </div>
+            <div class="navbar-small-item">
+                <a href="#">KINDERWELT</a></a>
+            </div>
+            <div class="navbar-small-item">
+                <a href="#">KIKUS</a></a>
+            </div>
+            <div class="navbar-small-item">
+                <a href="#">GALERIE</a>
+            </div>
+            <div class="navbar-small-item">
+                <a href="#">CONTACT</a>
+            </div>
+        </nav>
         <nav class="navbar">
             <div class="navbar-left">
                 <div class="navbar-social-button">
