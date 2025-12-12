@@ -147,12 +147,6 @@ a {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.header-small-logos {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
 .header-small-logo {
     flex: 1;
     display: flex;
@@ -170,7 +164,7 @@ a {
     text-align: center;
 }
 
-.header-small-logo img {
+.header-small-item img {
     max-width: 100%;
     height: auto;
     display: block;
@@ -182,6 +176,7 @@ a {
     align-items: center;
     gap: 1rem;
     flex: 1 1 65%;
+    justify-content: space-between;
 }
 
 .header-subitem {
