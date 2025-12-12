@@ -22,8 +22,6 @@ a {
     .navbar-social-button {
         display: none !important;
     }
-
-
 }
 
 @media (max-width: 900px) {
@@ -33,6 +31,16 @@ a {
 
   .header {
     display: none !important;
+  }
+
+  .description-img {
+    display: none !important;
+  }
+
+  .description {
+    flex-direction: column !important;
+    gap: 1rem;
+    padding-bottom: 2rem !important;
   }
 }
 
@@ -47,6 +55,14 @@ a {
 
     .navbar-small-items {
         display: none !important;
+    }
+
+    .description-small-img {
+        display: none !important;
+    }
+
+    .description {
+        flex-direction: row !important;
     }
 }
 
@@ -203,12 +219,27 @@ a {
     min-height: 200px;
     font-size: 1.25rem;
     letter-spacing: 1.15px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
+    text-align: center;
 }
 
-.description p {
-    text-align: center;
+.description-img {
+    flex: 1;
+}
+
+.description-img img {
+    max-width: 100px;
+}
+
+.description-small-img img {
+    max-width: 250px;
+}
+
+.description-text {
+    flex: 1;
 }
 
 .highlight {
