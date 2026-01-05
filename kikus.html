@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="assets/css/styles.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8">
+        <title>Kinderwelt - Kikus</title>
+        <script>
+            let displayed = false;
+            window.onload = function() {
+                document.getElementById("navbar-small-items").style.display = "none";
+            }
+
+            function toggleNavbarSmallItems() {
+                console.log("test");
+
+                if (displayed) {
+                    document.getElementById("navbar-small-items").style.display = "none";                    
+                }
+                else {
+                    document.getElementById("navbar-small-items").style.display = "flex";                    
+                }
+
+                displayed = !displayed;
+            }
+        </script>
+    </head>
+    <body>
+        <nav class="navbar-small">
+            <img src="assets/img/hamburger.png" onclick="toggleNavbarSmallItems()"/>
+        </nav>
+        <nav class="navbar-small-items" id="navbar-small-items">
+            <div class="navbar-small-item">
+                <a href="index.html">HOME</a>
+            </div>
+            <div class="navbar-small-item">
+                <a href="prezentare.html">KINDERWELT</a></a>
+            </div>
+            <div class="navbar-small-item">
+                <a href="kikus.html">KIKUS</a></a>
+            </div>
+            <div class="navbar-small-item">
+                <a href="galerie.html">GALERIE</a>
+            </div>
+            <div class="navbar-small-item">
+                <a href="contact.html">CONTACT</a>
+            </div>
+        </nav>
+        <nav class="navbar">
+            <div class="navbar-left">
+                <div class="navbar-social-button">
+                    <a href="#"><img src="assets/img/facebook.png" /></a>
+                </div>
+                <div class="navbar-social-button">
+                    <a href="#"><img src="assets/img/instagram.png" /></a>
+                </div>
+                <div class="navbar-social-button">
+                    <a href="#"><img src="assets/img/google.png" /></a>
+                </div>
+            </div>
+            <div class="navbar-center">
+                <a href="index.html">
+                    <div class="navbar-item">
+                        HOME
+                    </div>
+                </a>
+                <a href="prezentare.html">
+                    <div class="navbar-item">
+                        KINDERWELT
+                    </div>
+                </a>
+                <a href="kikus.html">
+                    <div class="navbar-item active">
+                        KIKUS
+                    </div>
+                </a>
+                <a href="galerie.html">
+                    <div class="navbar-item">
+                        GALERIE
+                    </div>
+                </a>
+                <a href="contact.html">
+                    <div class="navbar-item">
+                        CONTACT
+                    </div>
+                </a>
+            </div>
+            <div class="navbar-right">
+                <!-- Add something here -->
+            </div>
+        </nav>
+        <section class="header-small header-small-kikus">
+            <div class="header-small-item">
+                <img src="assets/img/wolken-rechts.png" />
+            </div>
+            <div class="header-small-item">
+                <div class="header-subitem">
+                    Centru de formare KIKUS ptr. cadre didactice <br/>
+                    Cursuri de limba germană și engleză <br/>
+                    după metoda KIKUS ptr. copii 3-10 ani <br/>
+                </div>
+                <div class="header-small-subitem">
+                </div>
+            </div>
+            <div class="header-small-item">
+                <div class="header-small-subitem">
+                </div>
+                <div class="header-small-subitem">
+                </div>
+            </div>
+        </section>
+        <section class="header header-kikus">
+            <div class="header-item">
+                <div class="header-subitem">
+                </div>
+                <div class="header-subitem">
+                </div>
+            </div>
+            <div class="header-item">
+                <div class="header-subitem">
+                    <img src="assets/img/wolken-rechts.png" />
+                </div>
+                <div class="header-subitem">
+                    Centru de formare KIKUS ptr. cadre didactice <br/>
+                    Cursuri de limba germană și engleză <br/>
+                    după metoda KIKUS ptr. copii 3-10 ani <br/>
+                </div>
+                <div class="header-subitem">
+                </div>
+            </div>
+        </section>
+        <section class="kikus">
+            <div class="title">Kikus</div>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut auctor aliquam nulla, eget pulvinar erat laoreet vitae. Morbi nisl mauris, hendrerit et diam sit amet, venenatis ultricies tortor. Nunc non venenatis diam. Duis pellentesque enim ut neque commodo, sed pretium nibh bibendum. Cras euismod posuere erat, non semper tellus pulvinar eget. In sit amet laoreet enim, et posuere ligula. Morbi vulputate imperdiet lacinia. Mauris maximus ullamcorper quam id molestie. Aenean vehicula ligula id ligula imperdiet, at finibus arcu posuere. Praesent viverra, nibh eget finibus blandit, massa sapien venenatis nunc, et varius nunc libero in metus. Curabitur non ligula ipsum. Nulla risus quam, vulputate et odio sit amet, gravida hendrerit turpis.</p>
+                <p>Donec in ante ut sem interdum condimentum. Vivamus sit amet metus mollis, hendrerit sapien et, convallis nunc. Proin aliquet, turpis sed vulputate rutrum, massa nunc molestie sem, eget congue dolor ante at tellus. Cras ut ex eu eros lacinia posuere. Mauris laoreet, sem a egestas vehicula, lectus nibh sagittis sapien, id vestibulum diam risus non lorem. Donec venenatis erat at urna interdum, vitae blandit urna sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</p>
+                <p>Aenean eu dolor bibendum, luctus turpis ac, aliquet nisl. Nunc eleifend lacus lacus, vel ullamcorper justo dictum et. Sed dignissim, erat ac molestie luctus, enim velit consectetur mi, tincidunt consectetur lectus dolor quis elit. Duis ac lectus elit. Nulla vitae erat eget augue fermentum congue vitae eget libero. Nulla quam quam, sagittis sit amet feugiat non, ultrices non enim. Aenean congue enim vel dui convallis vehicula.</p>
+            </div>    
+        </section>
+    </body>
+</html>
