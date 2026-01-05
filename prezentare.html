@@ -1,0 +1,224 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="assets/css/styles.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8">
+        <title>Kinderwelt - Prezentare</title>
+        <script>
+            let displayed = false;
+            window.onload = function() {
+                document.getElementById("navbar-small-items").style.display = "none";
+            }
+
+            function toggleNavbarSmallItems() {
+                console.log("test");
+
+                if (displayed) {
+                    document.getElementById("navbar-small-items").style.display = "none";                    
+                }
+                else {
+                    document.getElementById("navbar-small-items").style.display = "flex";                    
+                }
+
+                displayed = !displayed;
+            }
+        </script>
+    </head>
+    <body>
+        <nav class="navbar-small">
+            <img src="assets/img/hamburger.png" onclick="toggleNavbarSmallItems()"/>
+        </nav>
+        <nav class="navbar-small-items" id="navbar-small-items">
+            <div class="navbar-small-item">
+                <a href="index.html">HOME</a>
+            </div>
+            <div class="navbar-small-item">
+                <a href="prezentare.html">KINDERWELT</a></a>
+            </div>
+            <div class="navbar-small-item">
+                <a href="kikus.html">KIKUS</a></a>
+            </div>
+            <div class="navbar-small-item">
+                <a href="galerie.html">GALERIE</a>
+            </div>
+            <div class="navbar-small-item">
+                <a href="contact.html">CONTACT</a>
+            </div>
+        </nav>
+        <nav class="navbar">
+            <div class="navbar-left">
+                <div class="navbar-social-button">
+                    <a href="#"><img src="assets/img/facebook.png" /></a>
+                </div>
+                <div class="navbar-social-button">
+                    <a href="#"><img src="assets/img/instagram.png" /></a>
+                </div>
+                <div class="navbar-social-button">
+                    <a href="#"><img src="assets/img/google.png" /></a>
+                </div>
+            </div>
+            <div class="navbar-center">
+                <a href="index.html">
+                    <div class="navbar-item">
+                        HOME
+                    </div>
+                </a>
+                <a href="prezentare.html">
+                    <div class="navbar-item active">
+                        KINDERWELT
+                    </div>
+                </a>
+                <a href="kikus.html">
+                    <div class="navbar-item">
+                        KIKUS
+                    </div>
+                </a>
+                <a href="galerie.html">
+                    <div class="navbar-item">
+                        GALERIE
+                    </div>
+                </a>
+                <a href="contact.html">
+                    <div class="navbar-item">
+                        CONTACT
+                    </div>
+                </a>
+            </div>
+            <div class="navbar-right">
+                <!-- Add something here -->
+            </div>
+        </nav>
+        <section class="header-small header-small-prezentare">
+            <div class="header-small-item">
+                <img src="assets/img/wolken-links.png"/>
+            </div>
+            <div class="header-small-item">
+                <div class="header-subitem">
+                    O lume colorată,<br/>
+                    creativă și plină<br/>
+                    de activitate!
+                </div>
+                <div class="header-small-subitem">
+                </div>
+            </div>
+            <div class="header-small-item">
+                <div class="header-small-subitem">
+                </div>
+                <div class="header-small-subitem">
+                </div>
+            </div>
+        </section>
+        <section class="header header-prezentare">
+            <div class="header-item">
+                <div class="header-subitem">
+                    <img src="assets/img/wolken-links.png" />
+                </div>
+                <div class="header-subitem">
+                    O lume colorată,<br/>
+                    creativă și plină<br/>
+                    de activitate!
+                </div>
+            </div>
+            <div class="header-item">
+                <div class="header-subitem">
+                </div>
+                <div class="header-subitem">
+                  
+                </div>
+                <div class="header-subitem">
+                </div>
+            </div>
+        </section>
+        <section class="description description-prezentare">
+            <div>
+                DEZVOLTAREA TIMPURIE ESTE FUNDAMENTALĂ PENTRU CREȘTEREA COPILULUI!
+            </div>
+        </section>
+        <section class="prezentare">
+            <div class="about">
+                <div class="about-left">
+                    <div class="title">
+                        Kinderwelt se prezintă
+                    </div>
+                    <div class="about-content">
+                        <div class="about-paragraph">
+                            Profilul nostru este focusat pe îngrijirea copiilor de la 2 până la 6 ani, învățarea limbii germane literare punând accent indeosebi pe conversație,<br />
+                            jocuri de rol, teatru de păpuși și jocuri de mișcare.
+                        </div>
+                        <div class="about-paragraph">
+                            În paralel, vom pune accent pe noțiuni generale (exerciții pentru viața practică, primul meu lexicon, cunoștințe de biologie, geografie, jocuri logice, experimente, elemente din matematică și geometrie cu
+                            ajutorul unor materiale speciale de tip Montessori), la această vârstă fragedă copiii fiind receptivi.                    
+                        </div>
+                    </div>
+                </div>
+                <div class="about-right">
+                    <img src="assets/img/kids-music.png" />
+                </div>
+            </div>
+            <div class="grupe">
+                <div class="grupe-title title">
+                    Grupele noastre
+                </div>
+                <div class="grupe-components">
+                        <div class="grupe-component">
+                            <div class="grupe-component-image">
+                                <img src="assets/img/grupe/froschgruppe.png" />
+                            </div>
+                            <div class="grupe-component-title">
+                                Froschgruppe
+                            </div>
+                            <div class="grupe-component-description">
+                                Pulvinar est metro ligula<br />
+                                blandit maecenas<br/>
+                                gravida cuprum.<br/>
+                                Maecenas estibulum.
+                            </div>
+                        </div>
+                        <div class="grupe-component">
+                            <div class="grupe-component-image">
+                                <img src="assets/img/grupe/elfengruppe.png" />
+                            </div>
+                            <div class="grupe-component-title">
+                                Elfengruppe
+                            </div>
+                            <div class="grupe-component-description">
+                                Pulvinar est metro ligula<br />
+                                blandit maecenas<br/>
+                                gravida cuprum.<br/>
+                                Maecenas estibulum.
+                            </div>
+                        </div>
+                        <div class="grupe-component">
+                            <div class="grupe-component-image">
+                                <img src="assets/img/grupe/maikaefergruppe.png" />
+                            </div>
+                            <div class="grupe-component-title">
+                                Maikäfergruppe
+                            </div>
+                            <div class="grupe-component-description">
+                                Pulvinar est metro ligula<br />
+                                blandit maecenas<br/>
+                                gravida cuprum.<br/>
+                                Maecenas estibulum.
+                            </div>
+                        </div>
+                        <div class="grupe-component">
+                            <div class="grupe-component-image">
+                                <img src="assets/img/grupe/baerengruppe.png" />
+                            </div>
+                            <div class="grupe-component-title">
+                                Bärengruppe
+                            </div>
+                            <div class="grupe-component-description">
+                                Pulvinar est metro ligula<br />
+                                blandit maecenas<br/>
+                                gravida cuprum.<br/>
+                                Maecenas estibulum.
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
