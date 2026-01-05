@@ -36,6 +36,9 @@ a {
 }
 
 @media (max-width: 900px) {
+    .about {
+        text-align: center;
+    }
 
   .navbar {
     display: none !important;
@@ -157,7 +160,7 @@ a {
     padding-left: 2rem;
     padding-right: 2rem;
     font-size: 1.75rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .header-index {
@@ -187,7 +190,7 @@ a {
     padding-right: 2rem;
     font-size: 1.75rem;
     gap: 2rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .header-small-index {
